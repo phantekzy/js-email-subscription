@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Email subscription</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="hero">
+    <h3>Coming Soon</h3>
+    <h1>Cisco AI is on its way</h1>
+    <p>Subscribe for details!</p>
+
+    <!-- Subscription form -->
+    <!-- "name" attribute is used in script.js to grab this form -->
+    <form name="submit-to-google-sheet">
+      <input 
+        type="email" 
+        name="email" 
+        placeholder="Enter your email" 
+        required
+      >
+      <button type="submit">
+        <img src="img/send-icon.png" width="30" alt="Send">
+      </button>
+    </form>
+
+    <!-- Feedback message placeholder -->
+    <span id="msg"></span>
+  </div>
+</body>
+</html>
+
